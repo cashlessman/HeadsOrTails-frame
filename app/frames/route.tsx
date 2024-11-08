@@ -128,6 +128,8 @@ const frameHandler = frames(async (ctx) => {
                     />
               <div tw="flex text-7xl ml-10">{coinResult}</div>
        </div>
+       <div tw="flex text-2xl ml-10 mt-10">FID:{userData?.fid}</div>
+
       </div>
     );
   };
