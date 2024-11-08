@@ -137,7 +137,7 @@ const frameHandler = frames(async (ctx) => {
     `Flip a Coin \n \nframe by @cashlessman.eth`
 );
 
-  const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://moxiedemo.vercel.app/frames`;
+  const shareUrl = `https://warpcast.com/~/compose?text=${shareText}&embeds[]=https://fc-flip-a-coin.vercel.app/frames`;
 
   const buttons = [];
 
